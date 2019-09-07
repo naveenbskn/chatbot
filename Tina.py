@@ -20,9 +20,6 @@ import datetime
 import win32com.client as wincl
 speak = wincl.Dispatch("SAPI.SpVoice")
 #
-#import speech
-#import win32com.client as wincl#speak = wincl.Dispatch("SAPI.SpVoice"
-
 #==================================================================================================================================
 localtime = time.asctime(time.localtime(time.time()))
 print("Tina: WELCOME. I'm Tina,your virtual assistant")
